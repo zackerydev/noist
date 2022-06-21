@@ -43,5 +43,12 @@ cat node_modules/package-to-not-hoist/package.json
 
 Make sure you replace `package-to-not-hoist` with the actual `npm` package you want to replace.
 
+## Security
+The reason I made this package with **0** dependencies is to protect from having erroneous packages with random dependencies being injected into the tree (especially when they won't end up matching the names).
+
+One thing to consider if you are looking to use this package however is to **not** use it straight away, after all that would be trusting me entirely to not do the same thing I was not willing to trust above, but to _fork_ this repo and publish your own version of this package for your and your companies use.
+
+I don't anticipate publishing any new version of this package ever, but it is always best to be cautious with any dependency you install.
+
 ## Contributing
 If you want to contribute docs or examples to this repo feel free, my hope is that this is a stop gap measure and won't be needed once `npm` supports a `nohoist` flag or some feature that is similar.
