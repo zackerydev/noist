@@ -1,0 +1,22 @@
+{
+  "name": "noist",
+  "version": "1.0.0",
+  "description": "An empty node package to trick NPM workspaces into not hoisting your package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgriesinger/noist.git"
+  },
+  "keywords": [
+    "dependencies"
+  ],
+  "author": "zgriesinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgriesinger/noist/issues"
+  },
+  "homepage": "https://github.com/zgriesinger/noist#readme"
+}
