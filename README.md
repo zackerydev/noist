@@ -52,3 +52,5 @@ I don't anticipate publishing any new version of this package ever, but it is al
 
 ## Contributing
 If you want to contribute docs or examples to this repo feel free, my hope is that this is a stop gap measure and won't be needed once `npm` supports a `nohoist` flag or some feature that is similar.
+
+Subscribe to [this RFC on npm](https://github.com/npm/rfcs/issues/287) to be notified if and when this feature is built-into `npm` workspaces.
