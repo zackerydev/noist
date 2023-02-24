@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An empty node package to trick NPM workspaces into not hoisting your package",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
